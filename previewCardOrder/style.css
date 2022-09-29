@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 1900px;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  background-color: rgb(250, 250, 250);
+  width: 451px;
+  border-radius: 10px;
+}
+
+.container img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 365px;
+  font-size: 15px;
+  padding: 3px;
+}
+.info h3 {
+  color: hsl(223, 47%, 23%);
+}
+
+.info p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 30px;
+  color: rgb(120, 120, 120);
+}
+
+.icon {
+  display: flex;
+  width: 350px;
+  background-color: hsl(225, 100%, 98%);
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.left {
+  display: flex;
+  gap: 20px;
+}
+
+.left p {
+  color: rgb(153, 153, 153);
+}
+
+.second {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chang {
+  color: hsl(245, 75%, 52%);
+}
+
+.chang:hover {
+  text-decoration: none;
+  color: rgb(62, 84, 163);
+}
+
+.buton {
+  display: flex;
+  width: 340px;
+  background-color: hsl(245, 75%, 52%);
+  padding: 15px;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.buton:hover {
+  background-color: rgb(62, 84, 163);
+}
+
+.end a {
+  display: flex;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  font-size: 16px;
+  color: hsl(223, 47%, 23%);
+}
